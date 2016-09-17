@@ -31,10 +31,13 @@ Up to... | 4 (red) | 5 (green) | 6 (blue)
 
 ###The Code
 
-In the JavaScript file you'll see the `Nombre()` function, which returns the name of any number from 1 to 999,999 in Spanish. That one is the messy one. I had to hardcore some stuff because I was having troubles doing it in other ways. In it, you'll see a lot of references to the `baseDatos` Taffy table, which is a data base of some particular names of the numbers.
+In the **JavaScript** file you'll see the `Nombre()` function, which returns the name of any number from 1 to 999,999 in Spanish. That one is the messy one. I had to hardcore some stuff because I was having troubles doing it in other ways. In it, you'll see a lot of references to the `baseDatos` Taffy table, which is a data base of some particular names of the numbers.
 
 Then there is a `Recursivo()` function which checks if the formula has entered a loop, and if that's not the case, executes step 3.
 
 The `Run()` and the `Next()` functions just execute the formula for all the numbers in a 1,000 interval. They're not executed automatically because I prefered controlling it with the console, also for avoiding the Stack Overflow errors.
 
 Finally, you'll find the `CalcLargestChain()` and the `Plotting()` functions, which are the ones that return the results. The first one calculates the largest (and the smallest) chain of numbers before reaching a loop in the given interval, and the other ones has the hardcoded results explained above and plots the graph.
+
+
+Addiotionally, I made a **Python** version of the code, but due to my lack of experience with python, I only translated the most basic part of the code; it will only say how long is the longest chain in the given interval. 
